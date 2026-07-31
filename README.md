@@ -120,10 +120,30 @@ Oracle VirtualBox (https://www.virtualbox.org/wiki/Linux_Downloads).
 
 <img width="789" height="489" alt="image" src="https://github.com/user-attachments/assets/e7596072-32c3-4584-8777-7c62beec0ae1" />
 
-Ранее устанавливал пароль для пользователя root (по умолчанию его нет), то необходимо его ввести. 
+Ранее если бы я устанавливал пароль для пользователя root (по умолчанию его нет), то необходимо его ввести. 
 
+Пароля нет, я попадаю в систему
 
+<img width="862" height="477" alt="image" src="https://github.com/user-attachments/assets/fc369b68-1358-40e4-8e71-212b1b6dd1ba" />
 
-В этой консоли можно производить любые манипуляции с системой.
-:
+В этой консоли можно производить любые манипуляции с системой:
+
+<img width="707" height="292" alt="image" src="https://github.com/user-attachments/assets/0c3d75fb-9a94-4904-9fff-e8ae2130f41d" />
+
+Видно, что файл check_root.txt у нас остался из предыдущего этапа, и в нем также есть данные:
+
+<img width="537" height="113" alt="image" src="https://github.com/user-attachments/assets/a87d86da-535c-422d-b31d-c3a7d97bae22" />
+
+Добавим строчку:
+
+<img width="587" height="130" alt="image" src="https://github.com/user-attachments/assets/1c8b1aeb-e19d-40a2-939a-c6339b54ffd4" />
+
+Убедился, что файл записан. 
+
+**Установить систему с LVM, после чего переименовать VG**
+
+Я установили систему Ubuntu 24.04 со стандартной разбивкой диска с использованием  LVM.
+
+Первым делом посмотрю текущее состояние системы (список Volume Group):
+
 
