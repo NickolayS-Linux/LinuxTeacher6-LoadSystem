@@ -146,4 +146,29 @@ Oracle VirtualBox (https://www.virtualbox.org/wiki/Linux_Downloads).
 
 Первым делом посмотрю текущее состояние системы (список Volume Group):
 
+<img width="692" height="142" alt="image" src="https://github.com/user-attachments/assets/35fa52e9-f845-4248-9e3c-5b0d24347f94" />
+
+Нас интересуют cтроки с именем Volume Group. Выберу строку с VG - vg_root. Приступим к переименованию:
+
+<img width="683" height="107" alt="image" src="https://github.com/user-attachments/assets/34ed67a2-6887-488b-9d7b-a2dcc801a832" />
+
+Далее скорректирую /boot/grub/grub.cfg. Везде заменяю старое название VG на новое.
+
+Было:
+
+<img width="687" height="258" alt="image" src="https://github.com/user-attachments/assets/4f9123f7-97f1-4af0-93dc-f571f431f986" />
+
+Стало:
+
+<img width="690" height="243" alt="image" src="https://github.com/user-attachments/assets/faaf5831-5e42-48f6-9b44-dac6d1e66623" />
+
+Перезапускаю виртуальную машину...
+
+<img width="590" height="114" alt="image" src="https://github.com/user-attachments/assets/e4341e74-f97b-4668-bd33-78218bb8099b" />
+
+<img width="690" height="131" alt="image" src="https://github.com/user-attachments/assets/fabb35bb-8fe2-492d-b761-8d16dc8d2ee7" />
+
+Домашнее задание выполнено.
+
+
 
